@@ -1,24 +1,22 @@
-# README
+# Rails Blog Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic site created with Ruby-on-Rails, and using dummy content.
 
-Things you may want to cover:
+## How to Use
 
-* Ruby version
+* Clone/download repo
 
-* System dependencies
+* Bundle/install the required gems listed in the Gemfile
 
-* Configuration
+* Note: uses ruby version 2.3.1
 
-* Database creation
+* Set up the database using the following commands:
+  * rails db:create
+  * rails db:migrate
+  * rails db:seed
 
-* Database initialization
+* Open in browser:
+  * run 'rails s' in the console
+  * go to http://localhost:3000/posts in your browser 
+  
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
