@@ -1,0 +1,10 @@
+{
+  "name": "blog_site",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.41.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.14.0"
+  }
+}
